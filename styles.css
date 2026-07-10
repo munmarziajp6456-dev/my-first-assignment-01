@@ -5,12 +5,15 @@
 }
 
 nav,
-.speaker-container {
+.speaker-container,
+.secure-section {
     margin: 30px 80px;
 }
 
 nav,
-.nav-listItem {
+.nav-listItem,
+footer>:first-child,
+footer ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -106,4 +109,98 @@ nav,
 
 .card-content p {
     color: #575757;
+}
+
+/* secure spot section  */
+.text-center {
+    text-align: center;
+}
+
+.bold-text {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.secure-spot-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.secure-spot-card {
+    width: 350px;
+    padding: 35px;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.secure-spot-card hr {
+    margin: 15px 0;
+    border: 1px solid #E5E7EB;
+}
+
+.secure-spot-card h5,
+.secure-spot-card>:first-child {
+    color: #888888;
+    font-weight: 400;
+}
+
+.secure-spot-card ul {
+    padding: 0 20px;
+}
+
+.secure-spot-card ul li {
+    font-size: 12px;
+    margin-bottom: 14px;
+    line-height: 1.7;
+    color: #333333;
+}
+
+.secure-spot-card li::marker {
+    color: #2563EB;
+}
+
+.white-btn {
+    width: 100%;
+    padding: 16px 0;
+    background: #fff;
+    color: #3366F5;
+    border: 2px solid #3366F5;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.pro-btn {
+    width: 100%;
+    padding: 16px 0;
+    background: #3366F5;
+    color: #fff;
+    border: 2px solid #3366F5;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* secure section end  */
+
+footer {
+    margin: 20px 0;
+    background-color: #0D1B2A;
+    color: #919191;
+}
+
+.copyright-message,
+footer>:first-child {
+    padding: 20px;
+    text-align: center;
 }
