@@ -131,13 +131,26 @@ footer ul {
     margin-top: 50px;
 }
 
+.secure-spot-card:nth-child(2) {
+    background-color: #0D1B2A;
+    color: white !important
+}
+
+.secure-spot-card:nth-child(2) ul li {
+    color: #fff;
+}
+
 .secure-spot-card {
     width: 350px;
     padding: 35px;
-    background: #fff;
+    background-color: #fff;
     border: 1px solid #e5e5e5;
     border-radius: 16px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+.pro {
+    color: #93C5FD !important
 }
 
 .secure-spot-card hr {
