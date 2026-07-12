@@ -254,53 +254,67 @@ footer ul {
 
 
 .schedule-days,
-.day-section,
-.scedule-address {
+.day-section {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
     gap: 20px;
 }
+
+.day-section {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(163, 215, 255);
+    border-radius: 10px;
+}
+
+
+/* Schedule Content */
 
 .scedule-contents {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
     align-items: center;
-    background-color: rgba(180, 226, 233, 0.541);
+
+    margin: 50px 0;
     padding: 20px;
+
+    background-color: rgba(180, 226, 233, 0.541);
     border-radius: 20px;
 }
+
+
+/* Conference Title */
 
 .conference-title {
     width: 600px;
 }
 
+
+/* Schedule Address */
+
+.scedule-address {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 .scedule-address i {
     padding: 20px;
-    border-radius: 50%;
     border: 1px solid lightgray;
+    border-radius: 50%;
 }
 
-.day-section {
-    background-color: rgb(163, 215, 255);
-    padding: 10px;
-    width: fit-content;
-    margin: 0 auto;
-    padding: 20px;
-    border-radius: 10px;
-}
 
-.scedule-contents {
-    margin: 50px 0;
-}
+/* Speaker Image */
 
 .scedule-details-container img {
-    height: 150px;
     width: 150px;
+    height: 150px;
     border-radius: 50%;
-
 }
 
 /* footer  */
