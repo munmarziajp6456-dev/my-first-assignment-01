@@ -10,7 +10,8 @@
 
 nav,
 .speaker-container,
-.secure-section {
+.secure-section,
+.schedule-section {
     margin: 30px 80px;
 }
 
@@ -71,7 +72,8 @@ footer ul {
     font-size: 4rem;
 }
 
-.hero-section p {
+.hero-section p,
+.secure-section {
     margin-top: 20px;
 }
 
@@ -246,6 +248,59 @@ footer ul {
 .secure-spot-card:last-child .white-btn:hover {
     background: #0D1B2A;
     color: #fff;
+}
+
+/* .schedule section style  */
+
+
+.schedule-days,
+.day-section,
+.scedule-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 20px;
+}
+
+.scedule-contents {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(180, 226, 233, 0.541);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.conference-title {
+    width: 600px;
+}
+
+.scedule-address i {
+    padding: 20px;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+
+.day-section {
+    background-color: rgb(163, 215, 255);
+    padding: 10px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.scedule-contents {
+    margin: 50px 0;
+}
+
+.scedule-details-container img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+
 }
 
 /* footer  */
